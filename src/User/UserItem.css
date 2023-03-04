@@ -1,0 +1,62 @@
+.user-item {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.button {
+    box-sizing: border-box;
+
+    width: 84px;
+    height: 28px;
+
+    border: 1px solid #05C050;
+    border-radius: 2px;
+    color: #05C050;
+
+}
+
+.button.clicked {
+    background: #05C050;
+    border: 1px solid #05C050;
+    color: #FFFF;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.user-section .name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 18px;
+    color: #000000;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user-section .image {
+    --size: 35px;
+    border-radius: var(--size);
+    height: var(--size);
+    width: var(--size);
+    min-width: var(--size);
+}
+
+.trash {
+    background: #FF0B37;
+}
+
+.icon {
+    margin-right: 12.59px;
+}

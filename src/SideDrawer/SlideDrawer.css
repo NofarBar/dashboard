@@ -1,0 +1,139 @@
+html {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.side-drawer {
+    height: 100%;
+    background: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-width: 400px;
+    max-width: 428px;
+    z-index: 200;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 14px 22px;
+}
+
+.side-drawer.open {
+    transform: translateX(0);
+}
+
+.first-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.edit {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-right: 30px;
+    margin-left: 5.8px;
+}
+
+.cancle-class {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FF0B37;
+    margin-left: 9px;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.second-div .barbell-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E18DFF;
+}
+
+.second-div .barbell-icon svg {
+    transform: rotateZ(-45deg);
+}
+
+.second-div h1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.special-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    outline: 0;
+    border: 1px solid gray;
+    padding: 4px;
+    width: 250px;
+}
+
+.third-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.third-div .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    width: 33%;
+}
+
+.third-div .icons svg:first-child {
+    margin-bottom: 18.2px;
+}
+
+.third-div .icons h3 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0 0 4px;
+}
+
+.third-div .icons span {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.fourth-div h2 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.fourth-div p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+}

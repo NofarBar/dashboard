@@ -1,0 +1,40 @@
+.users-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.users-div h2 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.users-div .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.special-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    padding: 4px;
+    width: 250px;
+}
+
+.users-div ul li,
+.users-div ul {
+    list-style: none;
+    padding: 0;
+}
+
+.users-div select option {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    white-space: nowrap;
+}
